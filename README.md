@@ -9,6 +9,8 @@ Each skill is a folder with a Cursor-compatible `SKILL.md` (YAML frontmatter + r
 | Skill | Source | When to use |
 |-------|--------|-------------|
 | [sara-tool-authorization](./skills/sara-tool-authorization/) | [arXiv:2608.27146](https://arxiv.org/abs/2608.27146) | Designing or auditing tool-using agents so tool *outputs* cannot silently become *authorization* |
+| [openai-agents-sdk-sandbox](./skills/openai-agents-sdk-sandbox/) | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | Building with OpenAI Agents SDK: SandboxAgent workspaces, MCP, guardrails, handoffs, Realtime — and when to prefer LangGraph / Microsoft Agent Framework |
+| [state-path-tool-menus](./skills/state-path-tool-menus/) | [arXiv:2609.09395](https://arxiv.org/abs/2609.09395) | Large tool/MCP libraries: build the tool *menu* as an execution prior (state path, producer-before-consumer), not relevance-only retrieval |
 
 ## Add a skill (pipeline)
 
